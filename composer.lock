@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0bb95c610356cd9302fa1f306298bce1",
+    "packages": [
+        {
+            "name": "quantr/phpisdead",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/quantrpeter/phpisdead.git",
+                "reference": "c67af8cc7d24368492b0c1e7e66eb7c1b923e6a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/quantrpeter/phpisdead/zipball/c67af8cc7d24368492b0c1e7e66eb7c1b923e6a2",
+                "reference": "c67af8cc7d24368492b0c1e7e66eb7c1b923e6a2",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Quantr\\PhpIsDead\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter",
+                    "email": "peter@quantr.hk"
+                }
+            ],
+            "description": "Php framework",
+            "support": {
+                "issues": "https://github.com/quantrpeter/phpisdead/issues",
+                "source": "https://github.com/quantrpeter/phpisdead/tree/main"
+            },
+            "time": "2024-11-18T10:48:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "quantr/phpisdead": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
