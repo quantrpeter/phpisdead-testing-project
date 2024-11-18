@@ -1,18 +1,24 @@
 {
-    "name": "peter/phpisdead-testing-project",
-    "type": "project",
-    "require": {
-        "quantr/phpisdead": "dev-main"
-    },
-    "autoload": {
-        "psr-4": {
-            "Peter\\PhpisdeadTestingProject\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Peter",
-            "email": "peter@quantr.hk"
-        }
-    ]
+	"name": "peter/phpisdead-testing-project",
+	"type": "project",
+	"require": {
+		"quantr/phpisdead": "dev-main"
+	},
+	"autoload": {
+		"psr-4": {
+			"Peter\\PhpisdeadTestingProject\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Peter",
+			"email": "peter@quantr.hk"
+		}
+	],
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../phpisdead"
+		}
+	]
 }

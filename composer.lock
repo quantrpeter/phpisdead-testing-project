@@ -4,30 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bb95c610356cd9302fa1f306298bce1",
+    "content-hash": "3de1243feba9638b8ab6d166f54495de",
     "packages": [
         {
             "name": "quantr/phpisdead",
             "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/quantrpeter/phpisdead.git",
-                "reference": "a43f9a754e8594bd7c3d6647bdb210507ea0754d"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/quantrpeter/phpisdead/zipball/a43f9a754e8594bd7c3d6647bdb210507ea0754d",
-                "reference": "a43f9a754e8594bd7c3d6647bdb210507ea0754d",
-                "shasum": ""
+                "type": "path",
+                "url": "../phpisdead",
+                "reference": "6e8e0363921efcb41e8f400c8e8d632990789842"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Quantr\\PhpIsDead\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -38,11 +30,9 @@
                 }
             ],
             "description": "Php framework",
-            "support": {
-                "issues": "https://github.com/quantrpeter/phpisdead/issues",
-                "source": "https://github.com/quantrpeter/phpisdead/tree/main"
-            },
-            "time": "2024-11-18T10:55:39+00:00"
+            "transport-options": {
+                "relative": true
+            }
         }
     ],
     "packages-dev": [],
